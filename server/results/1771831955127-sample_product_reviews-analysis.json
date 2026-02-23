@@ -1,0 +1,523 @@
+{
+  "file": {
+    "name": "1771831955127-sample_product_reviews.csv",
+    "format": "csv"
+  },
+  "summary": {
+    "rows": 50,
+    "columns": 6,
+    "memory_mb": 0.017,
+    "duplicate_rows_original": 0,
+    "missing_cells_original": 0,
+    "cleaning_report": {
+      "rows_before": 50,
+      "rows_after": 50,
+      "duplicates_removed": 0,
+      "missing_before": {
+        "ProductName": 0,
+        "Category": 0,
+        "Review": 0,
+        "Rating": 0,
+        "PriceINR": 0,
+        "WouldRecommend": 0
+      },
+      "missing_after": {
+        "ProductName": 0,
+        "Category": 0,
+        "Review": 0,
+        "Rating": 0,
+        "PriceINR": 0,
+        "WouldRecommend": 0
+      }
+    },
+    "preview": [
+      {
+        "ProductName": "Boat Airdopes 141",
+        "Category": "Electronics",
+        "Review": "Good sound and long battery life",
+        "Rating": 4,
+        "PriceINR": "?1299",
+        "WouldRecommend": "Yes"
+      },
+      {
+        "ProductName": "Redmi Note 13 5G",
+        "Category": "Electronics",
+        "Review": "Great display and smooth performance",
+        "Rating": 5,
+        "PriceINR": "?17999",
+        "WouldRecommend": "Yes"
+      },
+      {
+        "ProductName": "Samsung 25W Charger",
+        "Category": "Electronics",
+        "Review": "Fast charging and sturdy build",
+        "Rating": 4,
+        "PriceINR": "?1499",
+        "WouldRecommend": "Yes"
+      },
+      {
+        "ProductName": "HP Wireless Mouse 200",
+        "Category": "Electronics",
+        "Review": "Comfortable to use but scroll is average",
+        "Rating": 3,
+        "PriceINR": "?799",
+        "WouldRecommend": "Maybe"
+      },
+      {
+        "ProductName": "OnePlus Nord Buds 2r",
+        "Category": "Electronics",
+        "Review": "Excellent bass and clear calls",
+        "Rating": 5,
+        "PriceINR": "?2199",
+        "WouldRecommend": "Yes"
+      },
+      {
+        "ProductName": "Mi Power Bank 10000mAh",
+        "Category": "Electronics",
+        "Review": "Useful backup but a bit heavy",
+        "Rating": 4,
+        "PriceINR": "?1199",
+        "WouldRecommend": "Yes"
+      },
+      {
+        "ProductName": "Logitech K380 Keyboard",
+        "Category": "Electronics",
+        "Review": "Compact and very reliable keyboard",
+        "Rating": 5,
+        "PriceINR": "?2999",
+        "WouldRecommend": "Yes"
+      },
+      {
+        "ProductName": "SanDisk 128GB Pendrive",
+        "Category": "Electronics",
+        "Review": "Good speed but cap is loose",
+        "Rating": 3,
+        "PriceINR": "?899",
+        "WouldRecommend": "Maybe"
+      },
+      {
+        "ProductName": "Sony WH-CH520 Headphones",
+        "Category": "Electronics",
+        "Review": "Very comfortable with balanced audio",
+        "Rating": 4,
+        "PriceINR": "?4499",
+        "WouldRecommend": "Yes"
+      },
+      {
+        "ProductName": "Realme Smart Watch S",
+        "Category": "Electronics",
+        "Review": "Nice features but app can improve",
+        "Rating": 3,
+        "PriceINR": "?3999",
+        "WouldRecommend": "Maybe"
+      },
+      {
+        "ProductName": "Prestige Pressure Cooker 5L",
+        "Category": "Kitchen",
+        "Review": "Strong body and cooks quickly",
+        "Rating": 5,
+        "PriceINR": "?2499",
+        "WouldRecommend": "Yes"
+      },
+      {
+        "ProductName": "Pigeon Non-Stick Tawa",
+        "Category": "Kitchen",
+        "Review": "Heats evenly and easy to clean",
+        "Rating": 4,
+        "PriceINR": "?699",
+        "WouldRecommend": "Yes"
+      },
+      {
+        "ProductName": "Milton Water Bottle 1L",
+        "Category": "Kitchen",
+        "Review": "Good quality and leak proof",
+        "Rating": 4,
+        "PriceINR": "?399",
+        "WouldRecommend": "Yes"
+      },
+      {
+        "ProductName": "Butterfly Mixer Grinder",
+        "Category": "Kitchen",
+        "Review": "Powerful motor but noisy",
+        "Rating": 3,
+        "PriceINR": "?3299",
+        "WouldRecommend": "Maybe"
+      },
+      {
+        "ProductName": "Borosil Glass Lunch Box",
+        "Category": "Kitchen",
+        "Review": "Premium quality and practical size",
+        "Rating": 5,
+        "PriceINR": "?999",
+        "WouldRecommend": "Yes"
+      },
+      {
+        "ProductName": "Hawkins Frying Pan",
+        "Category": "Kitchen",
+        "Review": "Solid pan with good coating",
+        "Rating": 4,
+        "PriceINR": "?1199",
+        "WouldRecommend": "Yes"
+      },
+      {
+        "ProductName": "Cello Knife Set",
+        "Category": "Kitchen",
+        "Review": "Sharp knives but handle grip is basic",
+        "Rating": 3,
+        "PriceINR": "?599",
+        "WouldRecommend": "Maybe"
+      },
+      {
+        "ProductName": "AGARO Electric Kettle",
+        "Category": "Kitchen",
+        "Review": "Boils water very fast",
+        "Rating": 5,
+        "PriceINR": "?1499",
+        "WouldRecommend": "Yes"
+      },
+      {
+        "ProductName": "Sujata Juicer Mixer",
+        "Category": "Kitchen",
+        "Review": "Excellent performance for daily use",
+        "Rating": 5,
+        "PriceINR": "?5899",
+        "WouldRecommend": "Yes"
+      },
+      {
+        "ProductName": "Bajaj Toaster 2 Slice",
+        "Category": "Kitchen",
+        "Review": "Works fine but outer body heats",
+        "Rating": 3,
+        "PriceINR": "?1799",
+        "WouldRecommend": "Maybe"
+      },
+      {
+        "ProductName": "Godrej Single Door Fridge",
+        "Category": "Home",
+        "Review": "Cooling is fast and silent",
+        "Rating": 5,
+        "PriceINR": "?18499",
+        "WouldRecommend": "Yes"
+      },
+      {
+        "ProductName": "Sleepyhead Queen Mattress",
+        "Category": "Home",
+        "Review": "Very comfortable and good support",
+        "Rating": 4,
+        "PriceINR": "?12499",
+        "WouldRecommend": "Yes"
+      },
+      {
+        "ProductName": "Philips LED Bulb 12W",
+        "Category": "Home",
+        "Review": "Bright light and low power usage",
+        "Rating": 5,
+        "PriceINR": "?249",
+        "WouldRecommend": "Yes"
+      },
+      {
+        "ProductName": "Atomberg Ceiling Fan",
+        "Category": "Home",
+        "Review": "Runs quietly and saves electricity",
+        "Rating": 5,
+        "PriceINR": "?3799",
+        "WouldRecommend": "Yes"
+      },
+      {
+        "ProductName": "Wakefit Study Table",
+        "Category": "Home",
+        "Review": "Sturdy table and easy assembly",
+        "Rating": 4,
+        "PriceINR": "?4599",
+        "WouldRecommend": "Yes"
+      },
+      {
+        "ProductName": "Nilkamal Plastic Chair",
+        "Category": "Home",
+        "Review": "Strong and lightweight",
+        "Rating": 4,
+        "PriceINR": "?899",
+        "WouldRecommend": "Yes"
+      },
+      {
+        "ProductName": "IKEA Storage Box",
+        "Category": "Home",
+        "Review": "Useful organizer but lid fit is tight",
+        "Rating": 3,
+        "PriceINR": "?699",
+        "WouldRecommend": "Maybe"
+      },
+      {
+        "ProductName": "Urban Ladder Shoe Rack",
+        "Category": "Home",
+        "Review": "Looks neat and spacious",
+        "Rating": 4,
+        "PriceINR": "?2999",
+        "WouldRecommend": "Yes"
+      },
+      {
+        "ProductName": "Kent Water Purifier",
+        "Category": "Home",
+        "Review": "Clean water and easy service",
+        "Rating": 5,
+        "PriceINR": "?10999",
+        "WouldRecommend": "Yes"
+      },
+      {
+        "ProductName": "Eureka Forbes Vacuum Cleaner",
+        "Category": "Home",
+        "Review": "Powerful suction but slightly loud",
+        "Rating": 4,
+        "PriceINR": "?7499",
+        "WouldRecommend": "Yes"
+      }
+    ],
+    "columns_profile": [
+      {
+        "name": "ProductName",
+        "dtype": "object",
+        "missing": 0,
+        "unique": 50,
+        "sample": "Boat Airdopes 141"
+      },
+      {
+        "name": "Category",
+        "dtype": "object",
+        "missing": 0,
+        "unique": 5,
+        "sample": "Electronics"
+      },
+      {
+        "name": "Review",
+        "dtype": "object",
+        "missing": 0,
+        "unique": 50,
+        "sample": "Good sound and long battery life"
+      },
+      {
+        "name": "Rating",
+        "dtype": "int64",
+        "missing": 0,
+        "unique": 3,
+        "sample": "4"
+      },
+      {
+        "name": "PriceINR",
+        "dtype": "object",
+        "missing": 0,
+        "unique": 37,
+        "sample": "?1299"
+      },
+      {
+        "name": "WouldRecommend",
+        "dtype": "object",
+        "missing": 0,
+        "unique": 2,
+        "sample": "Yes"
+      }
+    ]
+  },
+  "sentiment": {
+    "enabled": true,
+    "text_column": "Review",
+    "distribution": {
+      "neutral": 26,
+      "positive": 24
+    },
+    "average_score": 0.54,
+    "sample_reviews": [
+      {
+        "Review": "Good sound and long battery life"
+      },
+      {
+        "Review": "Great display and smooth performance"
+      },
+      {
+        "Review": "Fast charging and sturdy build"
+      },
+      {
+        "Review": "Comfortable to use but scroll is average"
+      },
+      {
+        "Review": "Excellent bass and clear calls"
+      },
+      {
+        "Review": "Useful backup but a bit heavy"
+      },
+      {
+        "Review": "Compact and very reliable keyboard"
+      },
+      {
+        "Review": "Good speed but cap is loose"
+      }
+    ]
+  },
+  "charts": {
+    "missing_by_column": {
+      "title": "Missing Values by Column",
+      "labels": [
+        "ProductName",
+        "Category",
+        "Review",
+        "Rating",
+        "PriceINR",
+        "WouldRecommend"
+      ],
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "dtype_distribution": {
+      "title": "Data Type Distribution",
+      "labels": [
+        "object",
+        "int64"
+      ],
+      "values": [
+        5,
+        1
+      ]
+    },
+    "numeric_distributions": [
+      {
+        "column": "Rating",
+        "labels": [
+          "3.0-3.25",
+          "3.25-3.5",
+          "3.5-3.75",
+          "3.75-4.0",
+          "4.0-4.25",
+          "4.25-4.5",
+          "4.5-4.75",
+          "4.75-5.0"
+        ],
+        "values": [
+          10,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          20
+        ]
+      }
+    ],
+    "top_categories": [
+      {
+        "column": "ProductName",
+        "labels": [
+          "Boat Airdopes 141",
+          "Redmi Note 13 5G",
+          "Samsung 25W Charger",
+          "HP Wireless Mouse 200",
+          "OnePlus Nord Buds 2r",
+          "Mi Power Bank 10000mAh",
+          "Logitech K380 Keyboard",
+          "SanDisk 128GB Pendrive",
+          "Sony WH-CH520 Headphones",
+          "Realme Smart Watch S"
+        ],
+        "values": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "column": "Category",
+        "labels": [
+          "Electronics",
+          "Kitchen",
+          "Home",
+          "Fashion",
+          "Beauty"
+        ],
+        "values": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "column": "Review",
+        "labels": [
+          "Good sound and long battery life",
+          "Great display and smooth performance",
+          "Fast charging and sturdy build",
+          "Comfortable to use but scroll is average",
+          "Excellent bass and clear calls",
+          "Useful backup but a bit heavy",
+          "Compact and very reliable keyboard",
+          "Good speed but cap is loose",
+          "Very comfortable with balanced audio",
+          "Nice features but app can improve"
+        ],
+        "values": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "column": "PriceINR",
+        "labels": [
+          "?699",
+          "?399",
+          "?2199",
+          "?1499",
+          "?1299",
+          "?2499",
+          "?899",
+          "?1199",
+          "?2999",
+          "?249"
+        ],
+        "values": [
+          3,
+          3,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    ],
+    "sentiment_distribution": {
+      "title": "Sentiment Distribution (Review)",
+      "labels": [
+        "neutral",
+        "positive"
+      ],
+      "values": [
+        26,
+        24
+      ]
+    }
+  }
+}

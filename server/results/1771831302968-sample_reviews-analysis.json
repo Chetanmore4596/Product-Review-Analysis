@@ -1,0 +1,196 @@
+{
+  "file": {
+    "name": "1771831302968-sample_reviews.csv",
+    "format": "csv"
+  },
+  "summary": {
+    "rows": 5,
+    "columns": 3,
+    "memory_mb": 0.001,
+    "duplicate_rows_original": 0,
+    "missing_cells_original": 0,
+    "cleaning_report": {
+      "rows_before": 5,
+      "rows_after": 5,
+      "duplicates_removed": 0,
+      "missing_before": {
+        "Review": 0,
+        "Rating": 0,
+        "Category": 0
+      },
+      "missing_after": {
+        "Review": 0,
+        "Rating": 0,
+        "Category": 0
+      }
+    },
+    "preview": [
+      {
+        "Review": "Great product and fast delivery",
+        "Rating": 5,
+        "Category": "Electronics"
+      },
+      {
+        "Review": "Bad quality and worst packaging",
+        "Rating": 1,
+        "Category": "Electronics"
+      },
+      {
+        "Review": "Average item but useful",
+        "Rating": 3,
+        "Category": "Home"
+      },
+      {
+        "Review": "Amazing value and excellent build",
+        "Rating": 5,
+        "Category": "Home"
+      },
+      {
+        "Review": "Terrible support and refund delay",
+        "Rating": 1,
+        "Category": "Electronics"
+      }
+    ],
+    "columns_profile": [
+      {
+        "name": "Review",
+        "dtype": "object",
+        "missing": 0,
+        "unique": 5,
+        "sample": "Great product and fast delivery"
+      },
+      {
+        "name": "Rating",
+        "dtype": "int64",
+        "missing": 0,
+        "unique": 3,
+        "sample": "5"
+      },
+      {
+        "name": "Category",
+        "dtype": "object",
+        "missing": 0,
+        "unique": 2,
+        "sample": "Electronics"
+      }
+    ]
+  },
+  "sentiment": {
+    "enabled": true,
+    "text_column": "Review",
+    "distribution": {
+      "positive": 3,
+      "negative": 2
+    },
+    "average_score": 0.2,
+    "sample_reviews": [
+      {
+        "Review": "Great product and fast delivery"
+      },
+      {
+        "Review": "Bad quality and worst packaging"
+      },
+      {
+        "Review": "Average item but useful"
+      },
+      {
+        "Review": "Amazing value and excellent build"
+      },
+      {
+        "Review": "Terrible support and refund delay"
+      }
+    ]
+  },
+  "charts": {
+    "missing_by_column": {
+      "title": "Missing Values by Column",
+      "labels": [
+        "Review",
+        "Rating",
+        "Category"
+      ],
+      "values": [
+        0,
+        0,
+        0
+      ]
+    },
+    "dtype_distribution": {
+      "title": "Data Type Distribution",
+      "labels": [
+        "object",
+        "int64"
+      ],
+      "values": [
+        2,
+        1
+      ]
+    },
+    "numeric_distributions": [
+      {
+        "column": "Rating",
+        "labels": [
+          "1.0-1.5",
+          "1.5-2.0",
+          "2.0-2.5",
+          "2.5-3.0",
+          "3.0-3.5",
+          "3.5-4.0",
+          "4.0-4.5",
+          "4.5-5.0"
+        ],
+        "values": [
+          2,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          2
+        ]
+      }
+    ],
+    "top_categories": [
+      {
+        "column": "Review",
+        "labels": [
+          "Great product and fast delivery",
+          "Bad quality and worst packaging",
+          "Average item but useful",
+          "Amazing value and excellent build",
+          "Terrible support and refund delay"
+        ],
+        "values": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "column": "Category",
+        "labels": [
+          "Electronics",
+          "Home"
+        ],
+        "values": [
+          3,
+          2
+        ]
+      }
+    ],
+    "sentiment_distribution": {
+      "title": "Sentiment Distribution (Review)",
+      "labels": [
+        "positive",
+        "negative"
+      ],
+      "values": [
+        3,
+        2
+      ]
+    }
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "file": {
+    "name": "1771831584632-sample_product_reviews.csv",
+    "format": "csv"
+  },
+  "summary": {
+    "rows": 10,
+    "columns": 5,
+    "memory_mb": 0.002,
+    "duplicate_rows_original": 0,
+    "missing_cells_original": 0,
+    "cleaning_report": {
+      "rows_before": 10,
+      "rows_after": 10,
+      "duplicates_removed": 0,
+      "missing_before": {
+        "Review": 0,
+        "Rating": 0,
+        "Category": 0,
+        "Price": 0,
+        "WouldRecommend": 0
+      },
+      "missing_after": {
+        "Review": 0,
+        "Rating": 0,
+        "Category": 0,
+        "Price": 0,
+        "WouldRecommend": 0
+      }
+    },
+    "preview": [
+      {
+        "Review": "Great product and fast delivery",
+        "Rating": 5,
+        "Category": "Electronics",
+        "Price": 199.99,
+        "WouldRecommend": "Yes"
+      },
+      {
+        "Review": "Bad quality and worst packaging",
+        "Rating": 1,
+        "Category": "Electronics",
+        "Price": 149.5,
+        "WouldRecommend": "No"
+      },
+      {
+        "Review": "Average item but useful",
+        "Rating": 3,
+        "Category": "Home",
+        "Price": 49.99,
+        "WouldRecommend": "Yes"
+      },
+      {
+        "Review": "Amazing value and excellent build",
+        "Rating": 5,
+        "Category": "Home",
+        "Price": 89.0,
+        "WouldRecommend": "Yes"
+      },
+      {
+        "Review": "Terrible support and refund delay",
+        "Rating": 1,
+        "Category": "Electronics",
+        "Price": 129.0,
+        "WouldRecommend": "No"
+      },
+      {
+        "Review": "Good quality for the price",
+        "Rating": 4,
+        "Category": "Kitchen",
+        "Price": 35.75,
+        "WouldRecommend": "Yes"
+      },
+      {
+        "Review": "Not bad but shipping was slow",
+        "Rating": 3,
+        "Category": "Kitchen",
+        "Price": 24.5,
+        "WouldRecommend": "Maybe"
+      },
+      {
+        "Review": "Excellent performance and easy setup",
+        "Rating": 5,
+        "Category": "Electronics",
+        "Price": 299.99,
+        "WouldRecommend": "Yes"
+      },
+      {
+        "Review": "Poor battery and hard to use",
+        "Rating": 2,
+        "Category": "Electronics",
+        "Price": 179.0,
+        "WouldRecommend": "No"
+      },
+      {
+        "Review": "Nice design and smooth experience",
+        "Rating": 4,
+        "Category": "Home",
+        "Price": 59.99,
+        "WouldRecommend": "Yes"
+      }
+    ],
+    "columns_profile": [
+      {
+        "name": "Review",
+        "dtype": "object",
+        "missing": 0,
+        "unique": 10,
+        "sample": "Great product and fast delivery"
+      },
+      {
+        "name": "Rating",
+        "dtype": "int64",
+        "missing": 0,
+        "unique": 5,
+        "sample": "5"
+      },
+      {
+        "name": "Category",
+        "dtype": "object",
+        "missing": 0,
+        "unique": 3,
+        "sample": "Electronics"
+      },
+      {
+        "name": "Price",
+        "dtype": "float64",
+        "missing": 0,
+        "unique": 10,
+        "sample": "199.99"
+      },
+      {
+        "name": "WouldRecommend",
+        "dtype": "object",
+        "missing": 0,
+        "unique": 3,
+        "sample": "Yes"
+      }
+    ]
+  },
+  "sentiment": {
+    "enabled": true,
+    "text_column": "Review",
+    "distribution": {
+      "positive": 6,
+      "negative": 4
+    },
+    "average_score": 0.2,
+    "sample_reviews": [
+      {
+        "Review": "Great product and fast delivery"
+      },
+      {
+        "Review": "Bad quality and worst packaging"
+      },
+      {
+        "Review": "Average item but useful"
+      },
+      {
+        "Review": "Amazing value and excellent build"
+      },
+      {
+        "Review": "Terrible support and refund delay"
+      },
+      {
+        "Review": "Good quality for the price"
+      },
+      {
+        "Review": "Not bad but shipping was slow"
+      },
+      {
+        "Review": "Excellent performance and easy setup"
+      }
+    ]
+  },
+  "charts": {
+    "missing_by_column": {
+      "title": "Missing Values by Column",
+      "labels": [
+        "Review",
+        "Rating",
+        "Category",
+        "Price",
+        "WouldRecommend"
+      ],
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "dtype_distribution": {
+      "title": "Data Type Distribution",
+      "labels": [
+        "object",
+        "int64",
+        "float64"
+      ],
+      "values": [
+        3,
+        1,
+        1
+      ]
+    },
+    "numeric_distributions": [
+      {
+        "column": "Rating",
+        "labels": [
+          "1.0-1.5",
+          "1.5-2.0",
+          "2.0-2.5",
+          "2.5-3.0",
+          "3.0-3.5",
+          "3.5-4.0",
+          "4.0-4.5",
+          "4.5-5.0"
+        ],
+        "values": [
+          2,
+          0,
+          1,
+          0,
+          2,
+          0,
+          2,
+          3
+        ]
+      },
+      {
+        "column": "Price",
+        "labels": [
+          "24.5-58.94",
+          "58.94-93.37",
+          "93.37-127.81",
+          "127.81-162.24",
+          "162.24-196.68",
+          "196.68-231.12",
+          "231.12-265.55",
+          "265.55-299.99"
+        ],
+        "values": [
+          3,
+          2,
+          0,
+          2,
+          1,
+          1,
+          0,
+          1
+        ]
+      }
+    ],
+    "top_categories": [
+      {
+        "column": "Review",
+        "labels": [
+          "Great product and fast delivery",
+          "Bad quality and worst packaging",
+          "Average item but useful",
+          "Amazing value and excellent build",
+          "Terrible support and refund delay",
+          "Good quality for the price",
+          "Not bad but shipping was slow",
+          "Excellent performance and easy setup",
+          "Poor battery and hard to use",
+          "Nice design and smooth experience"
+        ],
+        "values": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "column": "Category",
+        "labels": [
+          "Electronics",
+          "Home",
+          "Kitchen"
+        ],
+        "values": [
+          5,
+          3,
+          2
+        ]
+      },
+      {
+        "column": "WouldRecommend",
+        "labels": [
+          "Yes",
+          "No",
+          "Maybe"
+        ],
+        "values": [
+          6,
+          3,
+          1
+        ]
+      }
+    ],
+    "sentiment_distribution": {
+      "title": "Sentiment Distribution (Review)",
+      "labels": [
+        "positive",
+        "negative"
+      ],
+      "values": [
+        6,
+        4
+      ]
+    },
+    "correlation_matrix": {
+      "title": "Correlation Matrix",
+      "labels": [
+        "Rating",
+        "Price"
+      ],
+      "matrix": [
+        [
+          1.0,
+          0.14
+        ],
+        [
+          0.14,
+          1.0
+        ]
+      ]
+    }
+  }
+}
