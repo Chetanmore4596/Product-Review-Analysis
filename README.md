@@ -119,9 +119,7 @@ Backend API: `http://localhost:5000` (or your configured port)
 
 ## 📸 Demo / Screenshots
 
-<p align="center">
-  <img src="./Scrennshot/Output.png" alt="Application Demo" width="1000"/>
-</p>
+![Project Demo](.screenshots/Output.png)
 
 ---
 
