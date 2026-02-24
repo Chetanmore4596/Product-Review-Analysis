@@ -121,8 +121,7 @@ Backend API: `http://localhost:5000` (or your configured port)
 
 Add your screenshots in `screenshots/` and reference them here:
 
-- `screenshots/dashboard.png`
-- `screenshots/analysis.png`
+- `screenshots/Output.png`
 
 ---
 
