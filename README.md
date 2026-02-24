@@ -117,11 +117,11 @@ Backend API: `http://localhost:5000` (or your configured port)
 
 ---
 
-## 📸 Screenshots
+## 📸 Demo / Screenshots
 
-Add your screenshots in `screenshots/` and reference them here:
-
-- `screenshots/Output.png`
+<p align="center">
+  <img src="./Scrennshot/Output.png" alt="Application Demo" width="1000"/>
+</p>
 
 ---
 
